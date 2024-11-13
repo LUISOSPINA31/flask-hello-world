@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Actions Luis Ospina
+name: Luis Ospina
 
 # Controls when the workflow will run
 on:
@@ -21,9 +21,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: "Paso 1"
-        run: |
-          echo "Hola mundo"
+        run: | 
+          echo "Hola mundo "
           hostname
           pwd
           ls -l
-          find .
