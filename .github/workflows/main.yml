@@ -26,3 +26,4 @@ jobs:
           hostname
           pwd
           ls -l
+          find . 
